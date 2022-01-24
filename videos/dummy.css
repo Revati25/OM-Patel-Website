@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html{
+  scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Apercu', sans-serif;
+    font-size: 20px;
+    
+}
+.nav-item{
+    padding: 15px;
+    background-color: rgba(0,0,0 ,0.8);
+}
+.card{
+    border:none;
+    min-height:800px;
+}
+.column img{
+    padding: 15px;
+}
+
+.link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    color: rgba(0,0,0 ,0.8);
+    border-radius: 100%;
+    background-color: rgba(0,0,0 ,0.8);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .link:hover{
+    text-decoration: none;
+    
+    }
+    .link i{
+    font-size: 25px;
+    color: whitesmoke;
+    
+    
+    
+    }
+    .link i:hover{
+    
+    text-decoration: none;
+    }
